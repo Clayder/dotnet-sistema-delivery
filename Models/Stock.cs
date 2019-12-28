@@ -1,11 +1,13 @@
+
+
 namespace dotnet_sistema_delivery.Models
 {
     public class Stock
     {
-        private int id { get; set; }
+        public long Id { get; set; }
 
-        private Product product { get; set; }
+        public Product product { get; set; }
 
-        private int qty { get; set; }
+        public int qty { get; set; }
     }
 }

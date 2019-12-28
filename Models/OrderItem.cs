@@ -4,13 +4,14 @@ namespace dotnet_sistema_delivery.Models
 {
     public class OrderItem
     {
-        private int id { get; set; }
 
-        private Product product { get; set; }
+        public long Id { get; set; }
 
-        private float price { get; set; }
+        public Product product { get; set; }
 
-        private DateTime date { get; set; }
+        public float price { get; set; }
+
+        public DateTime date { get; set; }
 
 
     }

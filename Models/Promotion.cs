@@ -1,15 +1,18 @@
+
+
 namespace dotnet_sistema_delivery.Models
 {
     public class Promotion
     {
-        private int id { get; set; }
 
-        private string name { get; set; }
+        public long Id { get; set; }
 
-        private Product product { get; set; }
+        public string name { get; set; }
 
-        private float discount { get; set; }
+        public Product product { get; set; }
 
-        private bool status;
+        public float discount { get; set; }
+
+        public bool status;
     }
 }
