@@ -1,3 +1,5 @@
 dotnet ef migrations add nomeDaMigracao
 
+dotnet ef database update
+
 dotnet watch run
