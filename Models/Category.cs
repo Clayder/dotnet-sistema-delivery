@@ -8,5 +8,6 @@ namespace dotnet_sistema_delivery.Models
 
         public string name { get; set; }
 
+        public bool status { get; set; }
     }
 }
