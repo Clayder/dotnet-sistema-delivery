@@ -1,0 +1,14 @@
+@model dotnet_sistema_delivery.DTO.CategoryDTO
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<h2> Cadastrar categoria </h2>
+<hr/>
+<form class="form-horizontal" asp-controller="Categoria" asp-action="Salvar" method="POST">
+    <input type="hidden" asp-for="id" value="0">
+    <label asp-for="name"> Nome </label>
+    <input type="text" asp-for="name" class="form-control" > <br>
+    <span asp-validation-for="name"></span>
+    <button type="submit" class="btn btn-success"> Cadastrar </button> 
+</form>
