@@ -11,5 +11,7 @@ namespace dotnet_sistema_delivery.Models
         public string email { get; set; }
 
         public string telephone { get; set; }
+
+        public bool status { get; set; }
     }
 }
