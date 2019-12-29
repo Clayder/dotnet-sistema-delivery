@@ -1,9 +1,10 @@
 # Sistema de pedidos online
 
-O objetivo desse projeto é ser utilizado apenas para estudo e com isso obter conhecimentos em C# e .Net Core. 
+![](https://github.com/Clayder/dotnet-sistema-delivery/blob/master/sistema_delivery_v1.png?raw=true)
 
 **Status:** Em andamento.
- 
+
+O objetivo desse projeto é ser utilizado apenas para estudo e com isso obter conhecimentos em C# e .Net Core. 
 
 ## Principais funcionalidades
 
