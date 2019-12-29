@@ -16,7 +16,7 @@ namespace dotnet_sistema_delivery.DTO
         [EmailAddress(ErrorMessage="E-mail inválido.")]
         public string email { get; set; }
 
-        [Required(ErrorMessage="E-mail é obrigatório.")]
+        [Required(ErrorMessage="Telefone é obrigatório.")]
         [Phone(ErrorMessage="Telefone inválido.")]
         public string telephone { get; set; }
     }

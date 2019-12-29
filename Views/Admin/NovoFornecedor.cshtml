@@ -1,0 +1,29 @@
+@model dotnet_sistema_delivery.DTO.SupplierDTO
+@{
+    Layout = "_LayoutAdmin";
+}
+
+<h2> Cadastrar fornecedor </h2>
+<hr/>
+<form class="form-horizontal" asp-controller="Fornecedores" asp-action="Salvar" method="POST">
+    <input type="hidden" asp-for="Id" value="0">
+
+    <label asp-for="name"> Nome </label>
+    <input type="text" asp-for="name" class="form-control" > <br>
+    <span asp-validation-for="name"></span>
+    <br>
+
+    <label asp-for="email"> E-mail </label>
+    <input type="text" asp-for="email" class="form-control" > <br>
+    <span asp-validation-for="email"></span>
+    <br>
+
+    <label asp-for="telephone"> Telefone </label>
+    <input type="text" asp-for="telephone" class="form-control" > <br>
+    <span asp-validation-for="telephone"></span>
+
+
+
+
+    <button type="submit" class="btn btn-success"> Cadastrar </button> 
+</form>

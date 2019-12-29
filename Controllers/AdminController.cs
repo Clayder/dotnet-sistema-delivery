@@ -16,5 +16,13 @@ namespace dotnet_sistema_delivery.Controllers
         public IActionResult NovaCategoria(){
             return View();
         }
+
+        public IActionResult Fornecedores(){
+            return View();
+        } 
+
+        public IActionResult NovoFornecedor(){
+            return View();
+        } 
     }
 }
